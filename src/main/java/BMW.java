@@ -5,6 +5,7 @@ public class BMW extends Car{
     {
         super(gear, speed);
         seatHeight = startHeight;
+        System.out.println("catch block not empty");
     }
 
     public void setHeight(int newValue)
