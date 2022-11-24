@@ -6,6 +6,7 @@ public class Bike {
     {
         this.gear = gear;
         this.speed = speed;
+        System.out.println("catch block not empty");
     }
 
     public void applyBrake(int decrement)
